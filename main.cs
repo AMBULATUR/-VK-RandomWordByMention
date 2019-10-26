@@ -26,7 +26,6 @@ namespace MentionBot
         public main()
         {
             InitializeComponent();
-
         }
 
         private void EnableButton_Click(object sender, EventArgs e)
@@ -112,13 +111,9 @@ namespace MentionBot
         }
         public void FindMention(string id)
         {
-
-         
-
-
-           var MentionList = api.Messages.Search(new VkNet.Model.RequestParams.MessagesSearchParams
+            var MentionList = api.Messages.Search(new VkNet.Model.RequestParams.MessagesSearchParams
             {
-               
+
                 Query = id,
                 PreviewLength = 0,
                 Offset = 0,
@@ -126,19 +121,20 @@ namespace MentionBot
                 Extended = true,
             });
             idChat = MentionList.Items[0].PeerId - 2000000000;
-           messageId = MentionList.Items[0].Id;
+            messageId = MentionList.Items[0].Id;
             //if (MentionList.Items[0].ReadState == VkNet.Enums.MessageReadState.Unreaded)
             //{
-                SendMessage();
+            SendMessage();
             //}
-            
+
 
         }
         public void FindConversation(string ConversationName)
         {
-           var a = api.Messages.GetConversations(new VkNet.Model.RequestParams.GetConversationsParams {
-                Count=30,
-                
+            var a = api.Messages.GetConversations(new VkNet.Model.RequestParams.GetConversationsParams
+            {
+                Count = 30,
+
             });
             foreach (var item in a.Items)
             {
@@ -152,7 +148,6 @@ namespace MentionBot
                 catch
                 { }
                 break;
-
             }
         }
         public void SendMessage()
@@ -162,13 +157,10 @@ namespace MentionBot
             {
                 ForwardMessages = messages,
                 ChatId = idChat,
-                Message = BadWords[new Random().Next(1,BadWords.Count-1)],
+                Message = BadWords[new Random().Next(1, BadWords.Count - 1)],
                 RandomId = api.GetHashCode() * DateTime.Now.Millisecond
             });
         }
-
-
-
     }
 
 }
