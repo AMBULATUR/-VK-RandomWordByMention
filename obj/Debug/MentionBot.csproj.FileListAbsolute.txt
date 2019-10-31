@@ -2,7 +2,6 @@ C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\Mentio
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\MentionBot.exe
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\MentionBot.pdb
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.csprojAssemblyReference.cache
-C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.Form1.resources
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.Properties.Resources.resources
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.csproj.GenerateResource.cache
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.csproj.CoreCompileInputs.cache
@@ -45,3 +44,7 @@ C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\System
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\System.Memory.xml
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\VkNet.NLog.Extensions.Logging.xml
+C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\obj\Debug\MentionBot.main.resources
+C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\CoreLibrary.dll
+C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\CoreLibrary.pdb
+C:\Users\Wrong\Documents\Visual Studio 2017\Projects\MentionBot\bin\Debug\CoreLibrary.dll.config
